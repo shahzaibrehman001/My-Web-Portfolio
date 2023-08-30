@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shahzaib - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css\styles.css" />
+    <script src="javascript/script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="left">Shahzaib's Portfolio</div>
+      <div class="nav-toggle" onclick="toggleNav()">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <nav class="nav-links">
+        <ul>
+          <li><a href="#firstSection">Home</a></li>
+          <li><a href="#secondSection">About</a></li>
+          <li><a href="#thirdSection">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#service">Projects</a></li>
+          <li><a href="#cert">Certifications</a></li>
+          <li><a href="#personalinfo">Personal Info</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection" id="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Shahzaib Rehman</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="button">
+            <br />
+            <a class="btn" href="CV/Shahzaib Resume.pdf" download
+              >Download Resume</a
+            >
+            <a
+              class="btn"
+              href="https://github.com/shahzaibrehman001"
+              target="_blank"
+              >Visit GitHub</a
+            >
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="images\mypic.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection" id="secondSection">
+        <h1>About</h1>
+        <br />
+        <p>
+          Hello there! I am a highly motivated and innovative Computer Science
+          graduate with a passion for technology and its limitless
+          possibilities. Throughout my academic journey, I have acquired a solid
+          foundation in various programming languages, data structures,
+          algorithms, and software development methodologies. I have strong
+          analytical skills and a keen eye for detail. I am eager to contribute
+          to innovative projects and make a positive impact in the tech
+          industry.
+        </p>
+      </section>
+
+      <hr />
+      <section class="thirdSection" id="thirdSection">
+        <h1>Education</h1>
+        <br />
+        <br />
+        <table>
+          <tr>
+            <th>Degree</th>
+            <th>Institute</th>
+            <th>Year</th>
+          </tr>
+          <tr>
+            <td>B.Sc. Computer Science</td>
+            <td>University of Central Punjab</td>
+            <td>2023</td>
+          </tr>
+          <tr>
+            <td>Fsc Pre-engineering</td>
+            <td>Punjab Group of Colleges</td>
+            <td>2018</td>
+          </tr>
+          <tr>
+            <td>Matriculation</td>
+            <td>Hamdard Public School</td>
+            <td>2016</td>
+          </tr>
+        </table>
+        <hr />
+
+        <section class="skills" id="skills">
+          <h1>Skills</h1>
+          <p>Python <progress value="70" max="100"></progress></p>
+          <p>C++ <progress value="85" max="100"></progress></p>
+          <p>SQL <progress value="75" max="100"></progress></p>
+          <p>HTML <progress value="80" max="100"></progress></p>
+          <p>CSS <progress value="70" max="100"></progress></p>
+          <p>Microsoft Office <progress value="100" max="100"></progress></p>
+          <p>Microsoft Power BI <progress value="60" max="100"></progress></p>
+          <p>Statistics <progress value="90" max="100"></progress></p>
+          <p>Mathematics <progress value="77" max="100"></progress></p>
+          <p>AI <progress value="70" max="100"></progress></p>
+          <p>Machine Learning <progress value="75" max="100"></progress></p>
+          <p>Deep Learning <progress value="75" max="100"></progress></p>
+          <p>Data Visualization <progress value="80" max="100"></progress></p>
+          <p>Web Design <progress value="72" max="100"></progress></p>
+        </section>
+
+        <hr />
+        <section class="service" id="service">
+          <div class="text-center">
+            <h1>Projects</h1>
+          </div>
+
+          <div class="service-item">
+            <div class="service-box">
+              <i class="fa-solid fa-code"></i>
+              <h3>Web Development</h3>
+              <p>
+                I made a Portfolio-webpage using HTML and CSS. It's a static,
+                visually appealing document hosted on the internet. HTML defines
+                the structure and content, including headings, paragraphs,
+                images, and links. CSS controls the layout, design, and
+                presentation, allowing me to customize colors, fonts, spacing,
+                and positioning. The result is an attractive and user-friendly
+                web page accessible to anyone with an internet connection and a
+                web browser.
+              </p>
+            </div>
+
+            <div class="service-box">
+              <i class="fa-solid fa-chart-simple"></i>
+              <h3>Data Analysis</h3>
+              <p>
+                I did an analysis on the Global Terrorism Database (GTD), which
+                involved studying extensive data on terrorist incidents
+                worldwide. By examining patterns, trends, and factors related to
+                terrorism, I gained valuable insights into the frequency,
+                locations, methods, and groups involved in these activities.
+              </p>
+            </div>
+
+            <div class="service-box">
+              <i class="fa-solid fa-brain"></i>
+              <h3>Machine Learning</h3>
+              <p>
+                I made the foot ulcer detector project, an impactful healthcare
+                innovation that utilizes cutting-edge technology to detect and
+                assess foot ulcers in patients, particularly those with
+                diabetes. Through the integration of image processing, computer
+                vision, and machine learning, the system can identify potential
+                foot ulcers with high accuracy. This early detection capability
+                allows for timely intervention and reduces the risk of severe
+                complications. My project aims to enhance patient care, improve
+                foot health management, and contribute to better outcomes for
+                individuals at risk of foot ulcers.
+              </p>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <hr />
+      <section class="cert" id="cert">
+        <h1>Certifications</h1>
+        <br />
+        <p>● [IBM – Introduction to Data Analytics] , [Coursera] - [2023]</p>
+        <br />
+        <a
+          class="btn"
+          href="https://coursera.org/verify/PXGAZB8JR6R9"
+          target="_blank"
+          >Verify</a
+        >
+        <br />
+
+        <p><br /><br />● [Introduction to HTML5] , [Coursera] - [2023]</p>
+        <br />
+        <a
+          class="btn"
+          href="https://coursera.org/verify/63MN4EVENVTH"
+          target="_blank"
+          >Verify</a
+        >
+      </section>
+
+      <hr />
+      <section class="personalinfo" id="personalinfo">
+        <h1>Personal Information</h1>
+
+        <strong>Name:</strong> Shahzaib Rehman <br />
+        <strong>Age:</strong> 23 <br />
+        <strong>Email:</strong> shahzaibrehman143@gmail.com<br />
+        <strong>Phone Number:</strong> 0313-4824176<br />
+        <strong>Address:</strong> Model Town , Lahore, Pakistan<br />
+        <strong>Date of Birth:</strong> September 2, 1999<br />
+      </section>
+
+      <footer class="end-section">
+        <h3>Shahzaib Rehman</h3>
+        <p>Copyright &copy; 2023 by Shahzaib Rehman. All rights reserved.</p>
+        <br />
+        <div class="end-icons">
+          <a
+            href="https://www.linkedin.com/in/shahzaibrehman10/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://www.facebook.com/shahzaibrehman42" target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/shahzaibrehman10_/" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+      </footer>
+    </main>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Front End Developer! .",
+          "Data Analyst! .",
+          "ML Engineer! .",
+        ],
+        typeSpeed: 50,
+      });
+
+      function toggleNav() {
+        var navLinks = document.querySelector(".nav-links");
+        navLinks.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
